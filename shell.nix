@@ -2,4 +2,6 @@
 
 with pkgs;
 
-mkShell { buildInputs = [ python3 poetry python-language-server ]; }
+mkShell {
+  buildInputs = [ python3 poetry python-language-server chromium chromedriver ];
+}
